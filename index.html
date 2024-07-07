@@ -4,8 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .main{
+            width: 100%;
+        }
+        button{
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+        input{
+            height: 24px;
+            border-radius: 5px;
+            border: none;
+            padding: 5px;
+            outline: none;
+        }
+        .title{
+            font-size: 10vw;
+            color: #fff;
+        }
+        .btn{
+            width: 100px;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+            color: #fff;
+            background: #fff4;
+        }
+        .btn:active{
+            margin-top: 2px;
+        }
+       
+        .form{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+    .hero{
+        height: 100vh;
+        width: 100%;
+        background: violet;
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    </style>
 </head>
 <body>
+    <main class="main">
+        <section class="hero">
+            <form class="form" action="">
+                <input class="input" type="tel">
+                <button type="submit" class="submit">Submit</button>
+            </form>
+            <p class="title">+998 000 00 00</p>
+            <button class="btn">Start</button>
+        </section>
+    </main>
     
 
 
