@@ -12,6 +12,8 @@
             padding: 5px;
             border-radius: 5px;
             border: none;
+            margin-bottom: 30px;
+
         }
         input{
             height: 24px;
@@ -19,10 +21,12 @@
             border: none;
             padding: 5px;
             outline: none;
+
         }
         .title{
             font-size: 10vw;
             color: #fff;
+
         }
         .btn{
             width: 100px;
@@ -31,16 +35,18 @@
             border: none;
             color: #fff;
             background: #fff4;
+
         }
         .btn:active{
-            margin-top: 2px;
+            margin-top: 1px;
         }
        
         .form{
-            width: 100%;
+            width: 200px;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             gap: 10px;
+            align-items: center;
         }
     .hero{
         height: 100vh;
@@ -56,11 +62,11 @@
 <body>
     <main class="main">
         <section class="hero">
+            <p class="title">+998 000 00 00</p>
             <form class="form" action="">
                 <input class="input" type="tel">
                 <button type="submit" class="submit">Submit</button>
             </form>
-            <p class="title">+998 000 00 00</p>
             <button class="btn">Start</button>
         </section>
     </main>
